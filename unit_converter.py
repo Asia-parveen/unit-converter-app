@@ -98,7 +98,7 @@ st.markdown("""
         font-weight: bold;
         color: #ffcc00;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 20px;
         animation: fadeIn 2s ease-in-out;
     }
     @keyframes fadeIn {
