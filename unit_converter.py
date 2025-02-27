@@ -384,8 +384,33 @@ conversion_explanations = {
    
 }
 
-# st.write(conversion_explanations[conversion_type])
-st.markdown('<p class="created-by">💖 Crafted with passion and precision by <b>Asia Parveen</b> 🚀</p>', unsafe_allow_html=True)
+# # st.write(conversion_explanations[conversion_type])
+# st.markdown('<p class="created-by">💖 Crafted with passion and precision by <b>Asia Parveen</b> 🚀</p>', unsafe_allow_html=True)
+
+# import google.generativeai as genai
+
+# # Gemini API Key
+# API_KEY ="GEMINI_API_KEY" # Securely store this using dotenv or Streamlit secrets
+
+# genai.configure(api_key=API_KEY)
+
+# # Function to interact with Gemini AI
+# def chat_with_gemini(prompt):
+#     model = genai.GenerativeModel("gemini-pro")  # Adjust model name if needed
+#     response = model.generate_content(prompt)
+#     return response.text
+
+# st.markdown("## 🤖 AI Chatbot Assistant")
+
+# # Chatbot UI
+# user_input = st.text_input("Ask me anything:")
+# if user_input:
+#     response = chat_with_gemini(user_input)
+#     st.markdown(f"**Assistant:** {response}")
+
+
+
+
 
 
 
