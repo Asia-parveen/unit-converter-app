@@ -88,6 +88,7 @@ st.markdown("""
     border-radius: 8px;
     padding: 10px 20px;
     text-align: center;
+    margin-top:20px
     box-shadow: 0px 5px 10px rgba(255, 204, 0, 0.3); /* Soft glow effect */
 }
 
@@ -97,7 +98,7 @@ st.markdown("""
         font-weight: bold;
         color: #ffcc00;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
         animation: fadeIn 2s ease-in-out;
     }
     @keyframes fadeIn {
