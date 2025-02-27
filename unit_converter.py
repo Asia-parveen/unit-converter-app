@@ -385,7 +385,8 @@ conversion_explanations = {
 }
 
 # # st.write(conversion_explanations[conversion_type])
-# st.markdown('<p class="created-by">💖 Crafted with passion and precision by <b>Asia Parveen</b> 🚀</p>', unsafe_allow_html=True)
+st.markdown('<p class="created-by">💖 Crafted with passion and precision by <b>Asia Parveen</b> 🚀</p>', unsafe_allow_html=True)
+
 
 # import google.generativeai as genai
 
